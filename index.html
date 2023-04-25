@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIME - Toy Inside Me</title>
+    <style>
+        @font-face {
+            font-family: "Papyrus";
+            src: url("PAPYRUS.TTF");
+        }
+        .container {
+            font-family: "Papyrus", sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        .container__text {
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+        .container__options {            
+            display: flex;
+            gap: 20px;
+            margin-top: 50px;
+        }
+        .container__options button {
+            font-family: "Papyrus", sans-serif;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TIME - Toy Inside Me</h1>
+        <div class="container__text"></div>
+        <div class="container__options"></div>
+    </div>
+    <script type="module">
+        import story from './story.json' assert { type: 'json' };
+        import exploring from './exploring.json' assert { type: 'json' };
+        
+        const $text = document.querySelector('.container__text');
+        const $options = document.querySelector('.container__options');
+
+        let index = 0;
+        let following_index = -1;
+        let prev_index = null;
+        
+        window.requestAnimationFrame(gameLoop);
+        function gameLoop() {           
+            if (index !== following_index) {                
+                following_index = index;
+                setText($text, story[index].text)                
+                createOptions($options, story[index].options)
+            }
+            
+            window.requestAnimationFrame(gameLoop);
+        }
+
+        function setText(textEl, text) {
+            textEl.innerText = text;
+        }
+
+        function createOptions(optionsEl, options) {
+            $options.innerHTML = '';     
+            options.map(option => {
+                const optionEl = document.createElement("button");                
+                optionEl.onclick = () => {selectOption(option)};
+                optionEl.innerText = option.text;
+                return optionEl;
+            }).forEach(optionEl => {
+                $options.appendChild(optionEl);
+            });
+        }
+
+        function selectOption(option) {
+            if (option.isEnd) {
+                end()
+                return;
+            }
+            if (option.isReturn) {
+                index = prev_index;
+                return;
+            }
+            if (option.isExplore) {
+
+            }
+            prev_index = index;
+            index = option.index;
+        }       
+        
+        function end() {
+            index = 0;
+        }
+    </script>
+</body>
+</html>

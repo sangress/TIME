@@ -1,0 +1,132 @@
+[
+    {
+        "text": "You wake up in a toy factory. The air is stale, and the silence is broken only by the occasional creaking of rusty metal. The machines are still, covered in dust and cobwebs. The toys, once filled with life and energy, are now scattered and abandoned on the factory floor. The walls are peeling, the paint fading, and the fluorescent lights are dim and flickering. You are alone, who are you?",
+        "options": [
+            {"text": "soldier", "index": 1}, 
+            {"text": "angel", "index": 8}, 
+            {"text": "barbie", "index": 15}, 
+            {"text": "magician", "index": 20}]
+    },
+    {
+        "text": "soldier - you hold an assault rifle.",
+        "options": [
+            {"text": "go outside the factory", "index": 3}, 
+            {"text": "explore the factory", "index": 2, "isExplore": true}
+        ]
+    },
+    {
+        "text": "Exploring",
+        "options": [{"text": "go back", "isReturn": true}]
+    },
+    {
+        "text": "As you step outside the toy factory, you find yourself in a desolate and isolated area. The factory sits at the end of a long, winding road, surrounded by dense forests on all sides. The air is cool and crisp, and the sound of leaves rustling in the wind is the only thing that breaks the silence. You notice a goat grazing nearby, nibbling on the tall grass that grows along the side of the road. Its bleating is the only sound, other than the rustling leaves. It seems unfazed by your presence and continues to munch on the grass. As you look further down the road, you see a tall, shady figure approaching in the distance. The person is wearing a long coat and a wide-brimmed hat that casts a shadow over their face, making it difficult to see their features. You can't shake the feeling that there's something unsettling about this individual. As the figure draws nearer, you see a black car parked on the side of the road. It seems to have been abandoned, with no one in sight. You wonder who it belongs to, and why they would leave it here in such an isolated spot.",
+        "options": [
+            {"text": "you shot the goat", "index": 4},
+            {"text": "you shot the tall shady guy", "index": 5},            
+            {"text": "you hide behind the trees", "index": 6},
+            {"text": "you get inside the black car", "index": 7}
+        ]
+    },
+    {
+        "text": "you hit the goat in the head, the goat drops dead, the tall shady guy throws a knife right between your eyes, you drop on the ground and bleed to death.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "soldier-goat.png"}]
+    },
+    {
+        "text": "you hit the tall shady guy right in the heart, he dies immediatlly, the goat then shots lazer from his eyes and cut you hands and legs, you drop on the ground but you are not dead, the goat approach you and tells you that he is actually behmote, he cuts your head with his lazer and puts your head in a jar, he then takes you to hell and place the jar with your head in it on a big shelf full of other jars with heads, one of them welcomes you to hell.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "soldier-tallguy.png"}]
+    },
+    {
+        "text": "you hide behind the trees,after few minutes the goat explodes, probably from overheating, the tall shady guy jumps to the sky and fly away. you take the car and drive away.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "soldier-trees.png"}]
+    },
+    {
+        "text": "once you turn on the ignition the car explodes all your body parts skuttered all over the place, the goat eats your organs and piss on your head.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "soldier-car.png"}]
+    },
+    {
+        "text": "angel - you have a very bright aura around you.",
+        "options": [
+            {"text": "you bless the goat", "index": 9},
+            {"text": "you bless the tall shady guy", "index": 10},            
+            {"text": "you ask the trees for help", "index": 11},
+            {"text": "you get in the car", "index": 12}
+        ]
+    },
+    {
+        "text": "The goat elevates from the ground and a round golden crown surrounds his head and he has a nice white aura around him, suddenly his eyes turn red, he shots lazer from his eyes and cuts you into half, he then approaches you and say \"see you in hell, stupid.\"",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "angel-goat.png"}]
+    },
+    {
+        "text": "The tall guy evovles into angel, white wings come out of his back and his clothes turn white, he floats gently to you and says \"bless you.\", you say \"but I didn't sneeze.\", he then catches the goat and  decapitate him, he picks the the goat's head and brings it to you and say \"his never to be trusted, his the devil.\" a bright tunnel opens from the sky and takes the tall angel guy, you get in the car and drive to freedom.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "angel-tallguy.png"}]
+    },
+    {
+        "text": "Long wood hands emerge from the trees and choke you, the goat, and the tall shady guy with them. Apparently they were evil trees.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "angel-trees.png"}]
+    },
+    {
+        "text": "The car won't start, the tall shady guy approach to you and ask you to lower the window.",
+        "options": [
+            {"text": "you lower the window.", "index": 13},
+            {"text": "you signal the tall shady guy that the window is stuck.", "index": 14}
+        ]
+    },
+    {
+        "text": "The tall shady guy pulls a knife from his pocket and stub you right in the right eye and again in the neck three times, you bleed to death.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "angel-car1.png"}]
+    },
+    {
+        "text": "The tall shady guy breaks the window with his fist and choke you to death.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "angel-car2.png"}]
+    },
+    {
+        "text": "barbie - you wear a sexy bikini (because it's summer) and hold a banana.",
+        "options": [
+            {"text": "you give the banana to the goat", "index": 16},
+            {"text": "you try to seduce the tall shady guy", "index": 17},            
+            {"text": "you hug the trees", "index": 18},
+            {"text": "you get in the car", "index": 19}
+        ]
+    },
+    {
+        "text": "the goat opens his mouth wide and eats the banana along with your hand, you bleed all over the place until you die. The goat then piss on your corpse.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "barbie-goat.png"}]
+    },
+    {
+        "text": "The tall shady guy fancy you, you convince him to kill the goat and start the car, he crush the goat's head, he then pick you up and put you in the car he start driving, you are saved.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "barbie-tallguy.png"}]
+    },
+    {
+        "text": "You wander through the forest, reminiscing about the past. You stopped at a beautiful tree and hug it. \"I miss you Ken...\" - - The tree rustled, and a familiar voice responded, \"Barbie? It's me!\" The tree transform into Ken!  \"I've missed you so much,\" you say. \"I've missed you too,\" replied Ken. You spent the afternoon together catching up and reminiscing about your adventures together.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "barbie-trees.png"}]
+    },
+    {
+        "text": "You sit in the driver's seat of the car, staring at the dashboard in confusion. \"Now, let's see...how do I start this thing again?\". You fumble with the keys, trying to remember which one was for the ignition. After a few attempts, you finally find the right key and turned it. The engine roared to life, and you let out a whoop of excitement. \"I did it!\" you exclaim, pumping your fist in the air. You puts the pedal to the medal and crush into a tree.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "barbie-car.png"}]
+    },
+    {
+        "text": "magician - you hold a magic stick.",
+        "options": [
+            {"text": "you turn the goat into a princess", "index": 21},
+            {"text": "you turn the tall shady guy to a blonde girl with big brest", "index": 22},            
+            {"text": "you turn the trees into snakes", "index": 23},
+            {"text": "you get in the car", "index": 24}
+        ]
+    },
+    {
+        "text": "The tall shady guy goes to the goat, princess, you see hearts spinning around his head, he then kisses the goat, princess, right on the lips, the goat, princess, throws up all over the place, his vomit is highly acidic, the vomit hits you in the face and your face meltdown.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "magician-goat.png"}]
+    },
+    {
+        "text": "he suddenly transforms into a blonde girl with big breasts. Without warning, she leaps towards you, and you try to catch her. But she is heavier than you expected, and you stumble backward, losing your balance. The blonde girl crashes into you, her weight crushing you to the ground. After a few minutes you run out of air and die. ",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "magician-tallguy.png"}]
+    },
+    {
+        "text": "Without any hesitation the tree snakes sinking their fangs into the goat's and the tall shady guy flesh, they die quickly. After they finish with them they slither to you,  you beg for your life but the tree snakes have no mercy, you try to spell them but nothing works, they bite you and then piss on your corpse.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "magician-trees.png"}]
+    },
+    {
+        "text": "You climb into the driver's seat of the car and pull out your magic wand. With a flick of a wrist, you mutter an incantation, and the car's engine roars to life. As you shift the car into gear, it lift off the ground, soaring up into the air. You cackle with delight as you fly away, leaving the astonished onlookers below staring up in awe. \"Nothing beats the power of magic!\", grinning from ear to ear.",
+        "options": [{"text": "finish", "isEnd": true, "endImage": "magician-car.png"}]
+    }
+]
