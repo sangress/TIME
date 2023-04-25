@@ -4,8 +4,8 @@
         "options": [
             {"text": "soldier", "index": 1}, 
             {"text": "angel", "index": 8}, 
-            {"text": "barbie", "index": 15}, 
-            {"text": "magician", "index": 20}]
+            {"text": "barbie", "index": 16}, 
+            {"text": "magician", "index": 22}]
     },
     {
         "text": "soldier - you hold an assault rifle.",
@@ -46,12 +46,19 @@
     {
         "text": "angel - you have a very bright aura around you.",
         "options": [
-            {"text": "you bless the goat", "index": 9},
-            {"text": "you bless the tall shady guy", "index": 10},            
-            {"text": "you ask the trees for help", "index": 11},
-            {"text": "you get in the car", "index": 12}
+            {"text": "go outside the factory", "index": 9}, 
+            {"text": "explore the factory", "index": 2, "isExplore": true}
         ]
     },
+    {
+        "text": "As you step outside the toy factory, you find yourself in a desolate and isolated area. The factory sits at the end of a long, winding road, surrounded by dense forests on all sides. The air is cool and crisp, and the sound of leaves rustling in the wind is the only thing that breaks the silence. You notice a goat grazing nearby, nibbling on the tall grass that grows along the side of the road. Its bleating is the only sound, other than the rustling leaves. It seems unfazed by your presence and continues to munch on the grass. As you look further down the road, you see a tall, shady figure approaching in the distance. The person is wearing a long coat and a wide-brimmed hat that casts a shadow over their face, making it difficult to see their features. You can't shake the feeling that there's something unsettling about this individual. As the figure draws nearer, you see a black car parked on the side of the road. It seems to have been abandoned, with no one in sight. You wonder who it belongs to, and why they would leave it here in such an isolated spot.",
+        "options": [
+            {"text": "you bless the goat", "index": 10},
+            {"text": "you bless the tall shady guy", "index": 11},            
+            {"text": "you ask the trees for help", "index": 12},
+            {"text": "you get in the car", "index": 13}
+        ]
+    },    
     {
         "text": "The goat elevates from the ground and a round golden crown surrounds his head and he has a nice white aura around him, suddenly his eyes turn red, he shots lazer from his eyes and cuts you into half, he then approaches you and say \"see you in hell, stupid.\"",
         "options": [{"text": "finish", "isEnd": true, "endImage": "angel-goat.png"}]
@@ -67,8 +74,8 @@
     {
         "text": "The car won't start, the tall shady guy approach to you and ask you to lower the window.",
         "options": [
-            {"text": "you lower the window.", "index": 13},
-            {"text": "you signal the tall shady guy that the window is stuck.", "index": 14}
+            {"text": "you lower the window.", "index": 14},
+            {"text": "you signal the tall shady guy that the window is stuck.", "index": 15}
         ]
     },
     {
@@ -82,10 +89,17 @@
     {
         "text": "barbie - you wear a sexy bikini (because it's summer) and hold a banana.",
         "options": [
-            {"text": "you give the banana to the goat", "index": 16},
-            {"text": "you try to seduce the tall shady guy", "index": 17},            
-            {"text": "you hug the trees", "index": 18},
-            {"text": "you get in the car", "index": 19}
+            {"text": "go outside the factory", "index": 17}, 
+            {"text": "explore the factory", "index": 2, "isExplore": true}
+        ]
+    },
+    {
+        "text": "As you step outside the toy factory, you find yourself in a desolate and isolated area. The factory sits at the end of a long, winding road, surrounded by dense forests on all sides. The air is cool and crisp, and the sound of leaves rustling in the wind is the only thing that breaks the silence. You notice a goat grazing nearby, nibbling on the tall grass that grows along the side of the road. Its bleating is the only sound, other than the rustling leaves. It seems unfazed by your presence and continues to munch on the grass. As you look further down the road, you see a tall, shady figure approaching in the distance. The person is wearing a long coat and a wide-brimmed hat that casts a shadow over their face, making it difficult to see their features. You can't shake the feeling that there's something unsettling about this individual. As the figure draws nearer, you see a black car parked on the side of the road. It seems to have been abandoned, with no one in sight. You wonder who it belongs to, and why they would leave it here in such an isolated spot.",
+        "options": [
+            {"text": "you give the banana to the goat", "index": 18},
+            {"text": "you try to seduce the tall shady guy", "index": 19},            
+            {"text": "you hug the trees", "index": 20},
+            {"text": "you get in the car", "index": 21}
         ]
     },
     {
@@ -107,10 +121,17 @@
     {
         "text": "magician - you hold a magic stick.",
         "options": [
-            {"text": "you turn the goat into a princess", "index": 21},
-            {"text": "you turn the tall shady guy to a blonde girl with big brest", "index": 22},            
-            {"text": "you turn the trees into snakes", "index": 23},
-            {"text": "you get in the car", "index": 24}
+            {"text": "go outside the factory", "index": 23}, 
+            {"text": "explore the factory", "index": 2, "isExplore": true}
+        ]
+    },
+    {
+        "text": "As you step outside the toy factory, you find yourself in a desolate and isolated area. The factory sits at the end of a long, winding road, surrounded by dense forests on all sides. The air is cool and crisp, and the sound of leaves rustling in the wind is the only thing that breaks the silence. You notice a goat grazing nearby, nibbling on the tall grass that grows along the side of the road. Its bleating is the only sound, other than the rustling leaves. It seems unfazed by your presence and continues to munch on the grass. As you look further down the road, you see a tall, shady figure approaching in the distance. The person is wearing a long coat and a wide-brimmed hat that casts a shadow over their face, making it difficult to see their features. You can't shake the feeling that there's something unsettling about this individual. As the figure draws nearer, you see a black car parked on the side of the road. It seems to have been abandoned, with no one in sight. You wonder who it belongs to, and why they would leave it here in such an isolated spot.",
+        "options": [
+            {"text": "you turn the goat into a princess", "index": 24},
+            {"text": "you turn the tall shady guy to a blonde girl with big brest", "index": 25},            
+            {"text": "you turn the trees into snakes", "index": 26},
+            {"text": "you get in the car", "index": 27}
         ]
     },
     {
